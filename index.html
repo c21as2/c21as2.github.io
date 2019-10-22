@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ransom</title>
+	<style type="text/css">
+		span {
+			font-size: 40px;
+		}
+		span.secret:hover {
+			color: red;
+		}
+	</style>
+
+	<script type="text/javascript">
+		function check() {
+			el = document.getElementsByTagName('input');
+			if(el[0].value == "noo") {
+				alert("you got it!");
+			} else {
+				alert("nope");
+			}
+		}
+	</script>
+</head>
+<body>
+  <span>S</span>
+  <span>O</span>
+  <span> </span>
+  <span>D</span>
+  <span>O</span>
+  <span class="secret">N</span>
+  <span>E</span>
+  <span> </span>
+  <span>W</span>
+  <span>I</span>
+  <span>T</span>
+  <span>H</span>
+  <span> </span>
+  <span>S</span>	
+  <span>C</span>	
+  <span>H</span>
+  <span class="secret">O</span>
+  <span class="secret">O</span>
+  <span>L</span>
+  
+
+  <br>
+  <hr>
+  <label>What's the secret answer? </label>
+  <input type="text" name="answer">
+  <button onclick="check()">yes?</button >
+</body>
+</html>
